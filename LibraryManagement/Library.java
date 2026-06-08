@@ -59,6 +59,6 @@ public class Library {
             System.out.println((i + 1) + ") " + items.get(i));
         }
     }
-    public String getName() { return name; }
+    public String getName() { return Name; }
     public List<LibraryItem> getItems() { return items; }
 }
