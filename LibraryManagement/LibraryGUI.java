@@ -337,12 +337,12 @@ public class LibraryGUI extends JFrame {
                     "Library Setup",
                     JOptionPane.QUESTION_MESSAGE);
 
-            if (name == null) {            // user pressed Cancel
+            if (name == null) {              // user pressed Cancel
                 System.exit(0);
             }
             name = name.trim();
             if (name.isEmpty()) {
-                name = "Central Library";  // sensible default
+                name = "Central Library";    // sensible default
             }
 
             new LibraryGUI(name).setVisible(true);
