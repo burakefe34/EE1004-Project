@@ -1,4 +1,3 @@
-
 public class Book extends LibraryItem {
     private static final int MAX_LOAN_DAYS = 21;
     public Book(String title, String author, int year) {
